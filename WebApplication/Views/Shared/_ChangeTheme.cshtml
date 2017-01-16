@@ -1,0 +1,6 @@
+﻿@foreach (var theme in Bootstrap.Themes)
+{
+       <li><a href="@Url.Action("ChangeTheme", "Profile", new { themename = theme})">@theme</a></li>
+}
+
+
